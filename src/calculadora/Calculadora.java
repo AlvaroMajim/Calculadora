@@ -16,6 +16,10 @@ public class Calculadora {
         return a+h;
     }
 
+    public Calculadora(double x, double y){
+        a=x;
+        h=y;
+    }
 
     public static void main(String[] args) {
         
